@@ -1,0 +1,911 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+}
+
+.message{
+    background-color: teal;
+    height: 100px;
+    line-height: 100px;
+    width: 73vw;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* login */
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:  url("https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* register */
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:  url("https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* home */
+.home{
+    display: flex;
+}
+
+/* comment */
+.comments{
+    font-size: 17px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    color: #444;
+}
+
+.commentWrite{
+    display: flex;
+    margin-left: 20px;
+}
+
+.commentWrite > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 12px;
+}
+
+.commentsWriteForm{
+    position: relative;
+    margin-left: 20px;
+}
+
+.commentsWriteInput{
+    padding: 20px;
+    padding-right: 140px;
+    width: 950px;
+    min-height: 40px;
+    max-height: 100px;
+    
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 55px;
+    width: 70vw;
+}
+
+li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentsPerson{
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.commentsPerson > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commentsName{
+    margin-left: 20px;
+    color: lightcoral;
+}
+
+.commentsInfo{
+    display: flex;
+    align-items: center;
+}
+
+.commentsContent{
+    border: 1px solid rgb(155, 152, 152);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 900px;
+    min-height: 80px;
+}
+
+.commentsLikeNum{
+    font-size: 13px;
+}
+
+.commentsDeleteIcon{
+    margin-left: 15px;
+    color: red;
+}
+
+/* header */
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #444;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 90px;
+    object-fit: cover;
+}
+
+/* post */
+.post{
+    width: 450px;
+    margin: 0px 25px 40px 25px;
+}
+
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCat{
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postTitle{
+    font-family: "Josenfin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postLikeComment{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.postAuthorDate{
+    display: flex;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.postDate{
+    text-align: right;
+    margin-right: 0px;
+}
+
+.postAuthor{
+    margin-left: 0px;
+}
+
+.postDesc{
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+/* posts */
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* sidebar */
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fbfbfb;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem > p{
+    padding: 30px;
+    text-align: center;
+}
+
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* singlePost */
+.singlePostComment{
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+
+.singlePostEdit{
+    display: flex;
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;   
+}
+
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.singlePostLikeComment{
+    display: flex;
+    font-size: 16px;
+}
+
+.singlePostLikeNum{
+    margin-right: 10px;
+}
+
+/* topbar */
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+.topLeft, .topRight{
+    flex: 3.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter{
+    flex: 6;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topImgMenu{
+    /* display: flex; */
+    padding-left: 0;
+    min-width: 200px;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 200px;
+}
+
+.topHas-SubMenu{
+    align-items: center;
+    position: relative;
+}
+
+.topHas-SubMenu:hover .topSubMenu{
+    display: block;
+}
+
+.topSubMenu{
+    padding: 10px 0 0 0;
+    top: 100%;
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topImgMenu li:hover{
+    background: #EEE;
+}
+
+.topSubMenu li{
+    height: 30px;
+
+}
+
+.logoutButton{
+    border: none;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 0px;
+}
+
+
+.search{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    background:white ;
+    height: 18px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid rgb(121, 119, 119);
+    margin-left: 450px;
+}
+
+.search:hover > .search-txt{
+    width: 180px;
+    padding: 0 10px;
+    color: black;
+    font-family: 'Varela Round', cursive;
+}
+.search:hover > .search-btn{
+   background: white ;
+}
+.search-btn{
+    color: black;
+    float: right;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:white ;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:black ;
+    font-size: 16px;
+    transition: ease-in 0.4s;
+    line-height: 18px;
+    width: 120px;
+    font-family: 'Varela Round', cursive;
+}
+.fas fa-search{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+/* setting */
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+.settingsDeleteTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPP > input{
+    display: none;
+}
+
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* single */
+.single{
+    display: flex;
+}
+
+/* trend */
+.trend{
+    display: flex;
+}
+
+/* write */
+.write{
+    padding-top: 50px;
+}
+
+.writeForm{
+    position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    display: none;
+}
+
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 20px;
+    color: rgb(121, 118, 118);
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+}
+
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.writeImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+/* profile */
+.profile{
+    display: flex;
+}
+.myPosts{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+}
+.myPost{
+    width: 1000px;
+    margin: 30px 0 0 100px;
+}
+
+.myPostImg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.myPostInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myPostCat{
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.myPostTitle{
+    font-family: "Josenfin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.myPostLikeComment{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.myPostAuthorDate{
+    display: flex;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.myPostDate{
+    text-align: right;
+    margin-right: 0px;
+}
+
+.myPostAuthor{
+    margin-left: 0px;
+}
+
+.myPostDesc{
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.PPfollowButton{
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.PPunfollowButton{
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: lightcoral;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* posts */
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.sidebarItem > img{
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/* listFollower */
+.listFollower{
+    display: flex;
+}
+
+.bookmark{
+    display: flex;
+}
